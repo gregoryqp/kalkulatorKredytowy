@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="slideBox">
+      <div class="divForParameters">
+        <h1>Kalkulator kredytowy</h1>
+        <div class="parameters">
+          <p class="headers">Kwota wnioskowana:</p>
+          <div class="valueWindow">
+            <div class="requestedAmountValue"></div>
+            <p class="currency">zł</p>
+          </div>
+          <div class="range">
+            <input
+              type="range"
+              min="0"
+              max="10000"
+              value="5000"
+              step="500"
+              id="rangeAmount"
+              class="range-input"
+            />
+            <label class="slideRangeOfAmount"
+              ><p>1 000 zł</p>
+              <p>10 000 zł</p></label
+            >
+          </div>
+        </div>
+        <hr />
+        <div class="parameters">
+          <p class="headers">Okres spłaty:</p>
+          <div class="valueWindow">
+            <div class="periodRepayment"></div>
+            <p class="currency">mies.</p>
+          </div>
+          <div class="range">
+            <input
+              type="range"
+              min="1"
+              max="84"
+              value="12"
+              id="rangePeriod"
+              class="range-input2"
+            />
+            <label class="slideRangeOfAmount"
+              ><p>6 mies.</p>
+              <p>84 mies.</p></label
+            >
+          </div>
+        </div>
+        <hr />
+        <div class="checkboxes">
+          <p class="headers">Rodzaj rat:</p>
+          <div class="divForCheckboxAndLabel">
+            <input
+              type="checkbox"
+              id="constantInstallment"
+              name="constantInstallment"
+              value="constant"
+              class="checkbox"
+            />
+            <label class="labelInstallment" for="constantInstallment"
+              >Raty stałe</label
+            >
+          </div>
+          <div class="divForCheckboxAndLabel">
+            <input
+              type="checkbox"
+              id="descendingInstallment"
+              name="descendingInstallment"
+              value="descending"
+              class="checkbox"
+            />
+            <label class="labelInstallment" for="descendingInstallment"
+              >Raty malejące</label
+            >
+          </div>
+        </div>
+        <p class="legalInformation1" id="1">
+          Powyższe wyliczenie nie stanowi oferty w rozumieniu przep
+          <span class="expand">Rozwiń</span>
+        </p>
+        <p class="legalInformation2" id="2">
+          Powyższe wyliczenie nie stanowi oferty w rozumieniu przepisów prawa, a
+          ma charakter wyłącznie informacyjny. Wyliczona kwota kredytu oraz
+          kwota raty mają charakter orientacyjny, a udzielenie kredytu oraz jego
+          warunki uzależnione będą od wyniku oceny zdolności oraz proponowanego
+          zabezpieczenia.
+          <span class="collapse">Zwiń</span>
+        </p>
+      </div>
+      <div class="divForCalculation">
+        <div class="boxCalculation">
+          <p class="headers">Twoja rata miesięczna:</p>
+          <div class="monthlyRate">250 zł</div>
+
+          <p class="rrso"></p>
+          <label>Kwota Wnioskowana:</label>
+          <p class="kwotaWnioskowana"></p>
+
+          <label>Kwota do wypłaty:</label>
+          <p class="kwotaDoWyplaty"></p>
+
+          <label>Całkowity koszt kredytu:</label>
+          <p class="calkowityKosztKredytu">450 zł</p>
+        </div>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>
