@@ -55,12 +55,6 @@ sliderEl.addEventListener("input", (event) => {
   sliderEl.style.background = `linear-gradient(to right, #44a844 ${progress}%, #d1d1d1 ${progress}%)`;
 });
 
-// let sliderPeriodRepayment = sliderPeriod.getAttribute("value");
-// sliderValue2.innerHTML = sliderPeriodRepayment;
-
-// let progressPeriod = (sliderPeriodRepayment / sliderPeriod.max) * 100;
-
-// sliderPeriod.style.background = `linear-gradient(to right, #44a844 ${progressPeriod}%, #d1d1d1 ${progressPeriod}%)`;
 
 sliderPeriod.addEventListener("input", (event) => {
   sliderPeriodRepayment = event.target.value;
@@ -101,5 +95,5 @@ let collapseButton = () => {
 
 zwinButton.addEventListener("click", collapseButton);
 
-alert("Checkboxy jeszcze nie są skończone")
+alert("Checkboxy jeszcze nie są skończone. Muszę dodać wzory do obliczania rat stałych i zmiennych")
  
