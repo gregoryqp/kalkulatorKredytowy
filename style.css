@@ -131,7 +131,7 @@ h1 {
 .range-input2::-moz-range-thumb {
   height: 15px;
   width: 15px;
-  background-color: #f50;
+  background-color: #44a844;
   border-radius: 50%;
   border: none;
   transition: 0.2s ease-in-out;
