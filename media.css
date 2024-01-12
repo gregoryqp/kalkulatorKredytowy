@@ -1,4 +1,10 @@
 @media screen and (min-width: 800px) and (max-width: 1280px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .slideBox {
     display: flex;
     flex-direction: column;
@@ -17,5 +23,33 @@
   .legalInformation1,
   .legalInformation2 {
     max-width: 465px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slideBox {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 300px;
+    height: auto;
+  }
+  .divForParameters {
+    width: auto;
+    height: auto;
+  }
+  .divForCalculation {
+    margin: 0;
+    width: auto;
+  }
+
+  .legalInformation1,
+  .legalInformation2 {
+    max-width: 300px;
   }
 }
