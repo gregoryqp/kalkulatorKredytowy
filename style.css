@@ -224,9 +224,8 @@ h1 {
   width: 300px;
   height: auto;
   margin-left: 20px;
-  background-color: #e0dfdf;
   border-radius: 3px;
-  box-shadow: 0 0 3px #44a844;
+  box-shadow: 0 0 6px 1px #44a844;
 }
 
 hr {
