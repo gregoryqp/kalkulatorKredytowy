@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="60" />
+    <script src="appWeather.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Pogoda</title>
+  </head>
+  <body>
+    <div id="weather">
+      <div id="dane">
+        <h3>
+          <img src="images/pin.png" alt="" /> <span class="stacja"></span>,
+          Polska
+        </h3>
+
+        <p id="dzien"></p>
+
+        <!--<p id = "data">Data: <span class="data_pomiaru"></span></p>
+           <p id="godz">Godzina pomiaru: <span class="godzina_pomiaru"></span>:00</p>-->
+        <p id="temp"><span class="temperatura"></span>&#8451;</p>
+        <p id="presure">Ciśnienie: <span class="cisnienie"></span> hPa</p>
+
+        <div id="humanddrop">
+          <div class="atmosfera">
+            <img src="images/dropofwater.png" /><span class="humidity"></span> %
+          </div>
+          <div class="atmosfera">
+            <img src="images/wind.png" /><span class="wind"></span> m/s
+          </div>
+        </div>
+      </div>
+
+      <div id="weatherIcon">
+        <img id="stan" src="" />
+      </div>
+    </div>
+  </body>
+</html>
