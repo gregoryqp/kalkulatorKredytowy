@@ -1,0 +1,118 @@
+@media screen and (min-width: 1201px) {
+  .legalInformation3{
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxCalculation{
+    height: auto;
+  }
+
+  .slideBox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+  }
+  .divForParameters {
+    width: auto;
+    height: auto;
+  }
+  .divForCalculation {
+    margin: 0;
+    width: auto;
+  }
+
+  /* .legalInformation1,
+  .legalInformation2 {
+    max-width: 465px;
+  } */
+  .boxCalculation{
+    height: auto;
+  }
+  .download{
+    margin-bottom: 15px;
+  }
+  .legalInformation1{
+    display: none;
+  }
+  .legalInformation3{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #b4b4b4;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slideBox {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 80%;
+    height: auto;
+  }
+  .divForParameters {
+    width: auto;
+    height: auto;
+  }
+  .divForCalculation {
+    margin: 0;
+    width: auto;
+  }
+
+  
+  .parameters {
+    display: flex;
+    flex-direction: column;
+  }
+  .valueWindow {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .checkboxes {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  .kwotaWnioskowana {
+    margin: 0 0 15px 0;
+  }
+  .kwotaDoWyplaty {
+    margin: 0 0 15px 0;
+  }
+  .calkowityKosztKredytu {
+    margin: 0 0 15px 0;
+  }
+  .monthlyRate {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .boxCalculation{
+    height: auto;
+  }
+  .download{
+    margin: 10px 0 15px 0;
+  }
+  .legalInformation1{
+    display: none;
+  }
+  .legalInformation3{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #b4b4b4;
+    margin-top: 40px;
+  }
+}
