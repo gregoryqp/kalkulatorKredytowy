@@ -170,7 +170,7 @@ function generatePDF(){
   const {jsPDF} = window.jspdf;
   let doc = new jsPDF();
   let logo = new Image();
-   logo.src = "/logo.PNG";
+   logo.src = "logo.PNG";
   doc.addImage(logo, 'PNG', 10, 10, 100, 20);
   doc.setFontSize(12);
   
