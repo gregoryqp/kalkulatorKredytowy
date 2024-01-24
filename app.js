@@ -169,7 +169,8 @@ let print = document.querySelector(".download");
 function generatePDF(){
   const {jsPDF} = window.jspdf;
   let doc = new jsPDF();
-  let logo = `logo.PNG`;
+  let logo = new Image();
+   logo.src = "logo.png";
   doc.addImage(logo, 'PNG', 10, 10, 100, 20);
   doc.setFontSize(12);
   
